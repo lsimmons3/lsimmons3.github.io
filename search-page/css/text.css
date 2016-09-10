@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'Metal Mania', cursive;
+    src: url("https://fonts.googleapis.com/css?family=Metal+Mania")
+}
+
+h3 {
+    font-family: Metal Mania;
+}
+
+header, footer {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    padding-top: 10px
+}
+
+nav li, footer li {
+    display: inline;
+    padding: 1px 15px;
+    font-size: 14px;
+}
+
+nav a, footer a {
+    color: #777;
+    text-decoration: none;
+}
+
+nav a:hover, footer a:hover {
+    color: black;
+}
+
+ol a {
+    text-decoration: none;
+}
+
+ol a:hover {
+        text-decoration: underline;
+}
+
+.link {
+    color: #006621;
+}
+
+.info {
+    color: #aaa;
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+form-input-type-submit {
+    background-color: blue;
+}
+
+li {
+    font-family: Helvetica;
+    line-height: 50%
+}
+
+.submit {
+    background-color: #4688F1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 7px 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: #407CE5;
+    color: white;
+}
+
+.input {
+    width: 25%;
+    height: 34px;
+    border: 1px solid;
+    border-color: #B7B7B7;
+    font-size: 16px;
+    outline: none;
+    display: inline-block;
+}
+
+.input:focus {
+    border: 1px solid;
+    border-color: #4688F1;
+}
