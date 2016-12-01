@@ -1,80 +1,118 @@
 @font-face{
     font-family: 'Metal Mania', cursive;
-    src: url("https://fonts.googleapis.com/css?family=Metal+Mania")
+    font-family: 'Economica', sans-serif;
 }
-
-h3 {
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    width: 1500px;
+}
+main {
+    padding-left: 95px;
+    width: 60%;
+}
+aside {
+    float: right;
+    width: 40%;
+}
+.hr {
+    color: #EBEBEB;
+    height: 1px;
+    border-width: .5px;
+}
+h1, h3 {
     font-family: Metal Mania;
 }
-
+p {
+    font-family: Economica;
+}
 header, footer {
     background-color: #f1f1f1;
     border-bottom: 1px solid #666;
     border-color: #e5e5e5;
-    padding-top: 10px
+    padding-top: 10px;
 }
-
+header {
+    padding-top: 15px;
+}
+footer {
+    padding-left: 95px;
+}
+nav {
+    float: left;
+    padding-left: 80px;
+}
 nav li, footer li {
     display: inline;
-    padding: 1px 15px;
     font-size: 14px;
+    padding-left: 95px;
+    padding: 15px;
 }
-
 nav a, footer a {
     color: #777;
     text-decoration: none;
 }
-
+nav a {
+    padding-bottom: 18px;
+}
 nav a:hover, footer a:hover {
     color: black;
 }
-
 ol a {
     text-decoration: none;
 }
-
 ol a:hover {
         text-decoration: underline;
 }
-
+ol {
+    list-style-type: none;
+}
+ol li {
+    margin-bottom: 50px;
+}
+ol p {
+    line-height: 14px;
+}
+li {
+    font-family: Helvetica;
+    line-height: 0px;
+}
 .link {
     color: #006621;
 }
-
 .info {
     color: #aaa;
     font-family: Helvetica;
     font-size: 13px;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-left: 25px;
 }
-
-ol {
-    list-style-type: none;
-}
-
 form-input-type-submit {
     background-color: blue;
 }
-
-li {
-    font-family: Helvetica;
-    line-height: 50%
-}
-
-.submit {
+.submit{
     background-color: #4688F1;
     color: white;
     border: none;
     cursor: pointer;
     padding: 7px 5px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
 }
-
 .submit:hover {
     background-color: #407CE5;
     color: white;
 }
-
 .input {
     width: 25%;
     height: 34px;
@@ -83,9 +121,122 @@ li {
     font-size: 16px;
     outline: none;
     display: inline-block;
+    margin-right: -5px;
 }
-
 .input:focus {
     border: 1px solid;
     border-color: #4688F1;
+}
+.logo {
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.me {
+    float: right;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+.current {
+    color: #4688F1;
+    font-weight: bold;
+    border-bottom: 3px solid #4688F1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.current:hover {
+    text-decoration: none;
+    color: #4688F1;
+}
+.obox {
+    width: 399px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px #dddddd;
+}
+.name {
+    font-family: Metal Mania;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 10px;
+}
+.occupation {
+    color: gray;
+    margin: 0;
+    padding-left: 10px;
+}
+.img {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right: -5px;
+}
+.kanye {
+    padding-left: 10px;
+    font-family: Economica;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.wtf {
+    height: 24px;
+    color: #a2a2a2;
+    vertical-align: middle;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+.bio {
+    padding-left: 10px;
+}
+.bio a{
+    text-decoration: none;
+}
+.search {
+    vertical-align: top;
+}
+.dropdown {
+    vertical-align: top;
+    position: absolute;
+    left: 95%;
+}
+.dropbutton {
+    color: #6D6D6D;
+    vertical-align: middle;
+    background-color: transparent;
+    margin-right: 20px;
+    border: none;
+}
+.dropbutton:hover {
+    cursor: pointer;
+}
+.content {
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.show {
+    display:block;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.drive {
+    height: 50px;
+    text-decoration: none;
+    font-family: Economica;
+}
+.google {
+    height: 50px;
+    text-decoration: none;
+    font-family: Economica;
+}
+.inbox {
+    height: 50px;
+    text-decoration: none;
+    font-family: Economica;
 }

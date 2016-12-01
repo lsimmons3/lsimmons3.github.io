@@ -1,0 +1,305 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+html {
+    /*overflow: hidden;*/
+    /*height: 100%;*/
+}
+body {
+    /*height: 100%;*/
+    /*overflow: auto;*/
+    color: white;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(#5FCDFF, #0A29AE);
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h3 {
+    font-family: Quicksand;
+    color: black;
+    text-decoration: none;
+}
+button {
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+button:hover {
+    cursor: pointer;
+    outline: none;
+}
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    outline: none;
+}
+#emailinput1 {
+    /*display: none;*/
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    /*overflow: auto;*/
+    padding-top: 25%;
+}
+#content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: none;
+}
+#close1 {
+    color: gray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close1:hover, .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#hero {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+#skia {
+    display: block;
+    margin-bottom: -12.5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#copy {
+    position: absolute;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 15%;
+    z-index: 2;
+}
+#bg {
+    position: absolute;
+    width: 100%;
+    margin-left: -720px;
+    margin-top: 100px;
+    z-index: 1;
+}
+#activity {
+    width: 100%;
+    height: 600px;
+    color: black;
+    padding-top: 75px;
+    background-color: white;
+    display: block;
+    overflow: auto;
+}
+#actcopy {
+    margin-bottom: 75px;
+}
+#title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 65px;
+}
+#actcat {
+    font-weight: bolder;
+    font-size: 20px;
+}
+#actinfo {
+    font-weight: normal;
+    font-size: 20px;
+}
+#thirds {
+    float: left;
+    width: 33%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#ski {
+    width: 100px;
+}
+#air {
+    width: 90px;
+}
+#tricks {
+    width: 80px;
+}
+#social {
+    height: 725px;
+}
+#socialscreen {
+    width: 15%;
+    float: left;
+    margin: 10%;
+    margin-left: 25%;
+}
+#socialcopy {
+    width: 50%;
+    padding-top: 140px;
+    margin: auto;
+}
+#alert {
+    background: linear-gradient(#999999, #575757);
+    overflow: hidden;
+}
+#alertimg {
+    width: 100%;
+}
+#alertcopy {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+#testimonial {
+    background-color: white;
+    padding: 5%;
+}
+#bold {
+    font-weight: 700;
+}
+#cnn {
+    padding: 2%;
+    margin: auto;
+    width: 50%;
+    background: linear-gradient(#565656, #1D1D1D);
+    border-radius: 25px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+}
+#cnnlogo {
+    width: 150px;
+    float: left;
+    padding-right: 25px;
+    padding-top: 1.5%;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+#cnncopy {
+    text-align: left;
+    margin-right: 20px;
+}
+#nyt {
+    padding: 2%;
+    margin: auto;
+    width: 50%;
+    background: linear-gradient(#565656, #1D1D1D);
+    border-radius: 25px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+}
+#nytlogo {
+    width: 150px;
+    float: left;
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-top: 1%;
+    margin-top: 10px;
+}
+#nytcopy {
+    text-align: left;
+    margin-right: 10px;
+}
+#cta1 {
+    color: black;
+    padding-top: 5%;
+}
+#cta {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    /*width: 80%;*/
+}
+#ctatile {
+    padding: 1%;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.5);
+}
+#ctatile1 {
+    padding: 1%;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.5);
+}
+#ctacopy {
+    color: black;
+}
+#ctacopy1 {
+    color: black;
+}
+input[type=text] {
+    float: left;
+    border: 2px solid #3B86F7;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    outline: none;
+    margin-left: 9px;
+    width: 75%;
+}
+input[type=image] {
+    margin-right: 10px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 47px;
+}
+#ty {
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+}
+#ty1 {
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+}
+#fail {
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+}
+#fail1 {
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+}

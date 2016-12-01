@@ -1,0 +1,25 @@
+*{
+    font-family: Open Sans;
+    box-sizing: border-box;
+} 
+     
+h1, h2, h3 {
+    color: black;
+    font-family: Open Sans;
+}
+
+.date {
+    color: blue;
+}
+
+header {
+    background-color: #eeeeee;
+}
+
+ul {
+    background-color: #EBEBEB;
+}
+
+li {
+    font-size: 12px;
+}

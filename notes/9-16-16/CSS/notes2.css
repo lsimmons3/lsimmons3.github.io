@@ -1,0 +1,30 @@
+*{    /*universal selectors apply to everything*/
+    font-family: Open Sans;
+    box-sizing: border-box;
+} 
+     
+h1, h2, h3 {
+    color: black;
+}
+
+.date {
+    color: blue;
+}
+
+header {
+    background-color: #eeeeee;
+}
+
+#outer-box {
+    background: #55E8FB;
+    border: 1px solid gray;
+    width: 75%;
+    padding: 10px;    /*padding is inside the element*/
+    margin: 0 auto;    /*margin is outside the element*/
+    box-shadow: 5px 5px 5px #dddddd; /*first value is x distance, second is y, third is blur*/
+}
+
+#inner-box {
+    width: 50%;
+}
+
