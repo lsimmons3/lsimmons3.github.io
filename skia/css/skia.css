@@ -3,13 +3,8 @@
     box-sizing: border-box;
     font-weight: normal;
 }
-html {
-    /*overflow: hidden;*/
-    /*height: 100%;*/
-}
+
 body {
-    /*height: 100%;*/
-    /*overflow: auto;*/
     color: white;
     text-align: center;
     background: blue;
@@ -45,38 +40,6 @@ button:active {
     box-shadow: 0 0 0 0 rgba(0,0,0,0);
     outline: none;
 }
-#emailinput1 {
-    /*display: none;*/
-    position: fixed;
-    z-index: 100000;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.4);
-    /*overflow: auto;*/
-    padding-top: 25%;
-}
-#content1 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 100%;
-    display: none;
-}
-#close1 {
-    color: gray;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-.close1:hover, .close1:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-
 #hero {
     display: block;
     position: relative;
@@ -105,7 +68,7 @@ button:active {
 }
 #activity {
     width: 100%;
-    height: 600px;
+    height: 550px;
     color: black;
     padding-top: 75px;
     background-color: white;
@@ -119,7 +82,24 @@ button:active {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: -10px;
-    margin-top: 65px;
+}    
+#title1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+#title2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 75px;
+}
+#title3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 55px;
 }
 #actcat {
     font-weight: bolder;
@@ -224,7 +204,6 @@ button:active {
 #cta {
     margin-bottom: 100px;
     margin-top: 100px;
-    /*width: 80%;*/
 }
 #ctatile {
     padding: 1%;
@@ -234,18 +213,7 @@ button:active {
     border-radius: 25px;
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.5);
 }
-#ctatile1 {
-    padding: 1%;
-    width: 40%;
-    margin: auto;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.5);
-}
 #ctacopy {
-    color: black;
-}
-#ctacopy1 {
     color: black;
 }
 input[type=text] {
@@ -276,15 +244,6 @@ input[type=image] {
     padding-top: 10px;
     display: none;
 }
-#ty1 {
-    color: black;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: none;
-}
 #fail {
     color: black;
     text-align: center;
@@ -294,12 +253,13 @@ input[type=image] {
     padding-top: 10px;
     display: none;
 }
-#fail1 {
-    color: black;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: none;
+#btt {
+    color: #858585;
+    margin-bottom: 45;
+    margin-top: -45;
+    /*position: static;*/
+}
+#btt:hover {
+    color: #C0C0C0;
+    cursor: pointer;
 }

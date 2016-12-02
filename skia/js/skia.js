@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $("form").submit(function(event) {
         var formData = $(this).serialize();
         $.ajax({
@@ -22,18 +23,10 @@ $(document).ready(function(){
         event.preventDefault();    
     });
     
-   
-
     $("#button1").click(function(){
-        $('main').scrollTo("#cta", 700, {easing: swing});
-    })
-
-
-//     $("#button1").click(function() {                 i tried using this jquery method that doesnt use a plugin... didnt get it to work either.
-//     $('html, body').animate({
-//         scrollTop: $("#cta").offset().top
-//     }, 1000);
-//     return false;
-// });
-   
+        $(window).scrollTo(document.getElementById('cta'), 1250);
+    });
+    $("#btt").click(function(){
+        $(window).scrollTo(document.getElementById('hero'), 350);
+    });
 });

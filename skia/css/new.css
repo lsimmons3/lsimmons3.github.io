@@ -1,0 +1,36 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+body {
+    color: white;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(#5FCDFF, #0A29AE);
+    margin: 0;
+}
+#skia {
+    font-weight: bold;
+    color: white;
+    font-size: 50;
+    text-align: left;
+}
+#copy {
+    position: absolute;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 15%;
+    z-index: 2;
+}
+#tagLine {
+    color: white;
+    text-align: left;
+    font-size: 35
+}
+#toCTA {
+    border-radius: 50%
+}
+#bgimg {
+    width: 100%;
+}
